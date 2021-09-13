@@ -55,3 +55,17 @@ button {
   height: 90px;
   resize: vertical;
 }
+
+@media only screen and (max-width: 540px) {
+  main {
+    width: 400px;
+  }
+
+  #email,
+  #name,
+  #number,
+  #dropdown,
+  #comments {
+    width: 390px;
+  }
+}
